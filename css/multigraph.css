@@ -21,12 +21,26 @@
 .row h1, .row h2, .row p {
     text-align: center;
 }
+.panning:hover {
+    color: #d12913;
+}
+.zooming:hover {
+    color: #0a82d1;
+}
+.integrating:hover {
+    color: #8D07E0;
+}
+
+.fa-github-square, .fa-download {
+    font-size: 15pt;
+}
 
 footer {
     padding-top: 50px;
     text-align: center;
     font-size: 8pt;
     color: #bebcbc;
+    bottom: 5px;
 }
 
 footer a.icon {
@@ -43,11 +57,6 @@ footer a {
 footer a:hover {
     color: #919293;
     text-decoration: none;
-}
-
-.logos {
-    bottom: 24px;
-    position: absolute;
 }
 table.logo-footer td {
     padding-right: 15px;
