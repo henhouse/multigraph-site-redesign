@@ -12,20 +12,39 @@
 .jumbotron {
     padding-top: 25px;
     padding-bottom: 25px;
-    background: url("/images/bg.png") #fafafa;
+    background: url("/images/jumbotron-bg.png") #fafafa;
 }
-.bs-component h1, h2 {
-    text-align: center;
+.jumbotron p.lead {
+    text-indent: 0.5cm;
 }
 
-.bs-component p {
-    text-align: justify;
+.row h1, .row h2, .row p {
+    text-align: center;
 }
 
 footer {
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: center;
+    font-size: 8pt;
+    color: #bebcbc;
 }
+
+footer a.icon {
+    color: #dedede;
+}
+
+footer a:hover.icon {
+    color: #0a82d1;
+}
+
+footer a {
+    color: #bebcbc;
+}
+footer a:hover {
+    color: #919293;
+    text-decoration: none;
+}
+
 .logos {
     bottom: 24px;
     position: absolute;
@@ -39,7 +58,7 @@ table.release-table {
     width: auto;
     border-collapse: collapse;
 }
-table.release-table td,th {
+table.release-table td, table.release-table th {
     padding: 6px 10px 6px 10px;
     border: 1px solid gray;
 }
