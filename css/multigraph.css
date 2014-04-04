@@ -1,6 +1,7 @@
 /*
  * This file overrides several Bootstrap's styles
- * or provides custom ones for various pages
+ * or provides custom ones for various pages.
+ * Use this file. DO NOT EDIT the bootstrap files!
  */
 
 .navbar-logo {
@@ -21,6 +22,7 @@
 .row h1, .row h2, .row p {
     text-align: center;
 }
+
 .panning:hover {
     color: #d12913;
 }
@@ -28,7 +30,7 @@
     color: #0a82d1;
 }
 .integrating:hover {
-    color: #8D07E0;
+    color: #8d07e0;
 }
 
 .fa-github-square, .fa-download {
@@ -77,36 +79,43 @@ table.release-table td.notes {
 table.release-table tr.switch {
     background: #ededed;
 }
+
+
+.example-nav {
+    font-size: 9pt;
+    float: left;
+    width: 20%;
+}
+.example-nav li.active a {
+    color: #000;
+    font-weight: bold;
+}
+
+.example-content {
+    font-size: 9pt;
+    text-align: center;
+}
+
+.example-content .multigraph {
+    width: 80%;
+    height: 400px;
+    float: left;
+}
+
 pre.prettyprint {
     padding: 10px;
     border: 1px solid #cccccc;
 }
 pre.example {
     overflow: auto;
-    width: 100%;
-    height: 475px;
+    width: 80%;
+    height: 500px;
+    text-align: left;
 }
-.multigraph {
-    width: auto;
-    height: 400px;
-}
+
 table.example-text {
-    width: 100%;
+    width: 80%;
 }
 h3.example-title {
     text-align: center;
-}
-table.examples td {
-    vertical-align: text-top;
-    padding-right: 20px;
-}
-table.examples td.navigation {
-    width: 20%;
-}
-table.examples td.content {
-    width: auto;
-}
-table.examples li.active a {
-    color: #000;
-    font-weight: bold;
 }
