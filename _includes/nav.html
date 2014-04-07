@@ -13,8 +13,8 @@
             <li{% if page.about == "selected" %} class="active"{% endif %}>
                 <a href="/">About</a>
             </li>
-            <li>
-                <a href="/#">Integrate</a>
+            <li{% if page.integrate == "selected" %} class="active"{% endif %}>
+                <a href="/integrate">Integrate</a>
             </li>
             <li{% if page.docs == "selected" %} class="active"{% endif %}>
                 <a href="/docs">Documentation</a>
@@ -34,7 +34,7 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li{% if page.download == "selected" %} class="active"{% endif %}>
-                <a href="/download"><i class="fa fa-download"></i></a>
+                <a href="/download"><i class="fa fa-download"></i> Download</a>
             </li>
 
             <!--<li{% if page.download == "selected" %} class="active"{% endif %}>
