@@ -22,6 +22,11 @@
 .row h1, .row h2, .row p {
     text-align: center;
 }
+.list-group {
+    width: 50%;
+    float: left;
+    padding: 0 2px 0 2px;
+}
 
 .panning:hover {
     color: #d12913;
@@ -31,6 +36,9 @@
 }
 .integrating:hover {
     color: #8d07e0;
+}
+.get-started {
+    text-align: center;
 }
 
 .fa-github-square {
