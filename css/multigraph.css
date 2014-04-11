@@ -135,7 +135,33 @@ h3.example-title {
 
 /* Elements to change when user is on tablet or smartphone */
 @media (max-width: 768px) {
-    .navbar-right {
+    .example-nav {
+        display: none;
+    }
+    pre.example {
+        display: none;
+    }
+    .example-intro-text {
+        display: none;
+    }
+    .example-content .multigraph {
+        width: 100%;
+    }
+    .btn, button {
+        padding: 8px;
+    }
+    .dropdown-menu li a {
+        padding: 8px;
+    }
+    .dropdown-menu li.active a {
+        font-weight: bold;
+        background-color: inherit;
+    }
+}
+
+/* These disappear when NOT on smartphone */
+@media (min-width: 768px) {
+    .example-mobile-nav {
         display: none;
     }
 }
