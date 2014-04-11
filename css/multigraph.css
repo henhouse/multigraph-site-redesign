@@ -48,11 +48,11 @@
     margin-top: 75px;
 }
 footer {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
     font-size: 8pt;
     color: #bebcbc;
-    bottom: 5px;
+    clear: both;
 }
 footer a.icon {
     color: #dedede;
@@ -74,9 +74,10 @@ pre.prettyprint {
 
 
 /* CREDITS PAGE */
-table.logo-footer td {
+.credit-logo  {
     padding-right: 15px;
     padding-left: 15px;
+    float: left;
 }
 
 
@@ -162,6 +163,9 @@ h3.example-title {
     .dropdown-menu li.active a {
         font-weight: bold;
         background-color: inherit;
+    }
+    .credit-logo {
+        display: none;
     }
 }
 
