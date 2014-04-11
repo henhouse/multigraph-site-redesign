@@ -4,10 +4,8 @@
  * Use this file. DO NOT EDIT the bootstrap files!
  */
 
-.content {
-    margin-top: 75px;
-}
 
+/* HOME PAGE */
 .jumbotron {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -16,7 +14,6 @@
 .jumbotron p.lead {
     text-indent: 0.5cm;
 }
-
 .row h1, .row h2, .row p {
     text-align: center;
 }
@@ -25,7 +22,6 @@
     float: left;
     padding: 0 2px 0 2px;
 }
-
 .panning:hover {
     color: #d12913;
 }
@@ -38,7 +34,6 @@
 .get-started {
     text-align: center;
 }
-
 .fa-github-square {
     font-size: 15pt;
 }
@@ -47,6 +42,11 @@
     padding-right: 1px;
 }
 
+
+/* UNIVERSAL STYLES */
+.content {
+    margin-top: 75px;
+}
 footer {
     padding-top: 50px;
     text-align: center;
@@ -54,15 +54,12 @@ footer {
     color: #bebcbc;
     bottom: 5px;
 }
-
 footer a.icon {
     color: #dedede;
 }
-
 footer a:hover.icon {
     color: #0a82d1;
 }
-
 footer a {
     color: #bebcbc;
 }
@@ -70,10 +67,20 @@ footer a:hover {
     color: #919293;
     text-decoration: none;
 }
+pre.prettyprint {
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+
+/* CREDITS PAGE */
 table.logo-footer td {
     padding-right: 15px;
     padding-left: 15px;
 }
+
+
+/* DOWNLOAD PAGE */
 table.release-table {
     margin-left: 10px;
     width: auto;
@@ -91,6 +98,7 @@ table.release-table tr.switch {
 }
 
 
+/* EXAMPLES PAGE */
 .example-nav {
     font-size: 9pt;
     float: left;
@@ -100,12 +108,10 @@ table.release-table tr.switch {
     color: #000;
     font-weight: bold;
 }
-
 .example-content {
     font-size: 9pt;
     text-align: center;
 }
-
 .example-content .multigraph {
     width: 80%;
     height: 400px;
@@ -116,11 +122,6 @@ table.release-table tr.switch {
 }
 .example-open {
     float: right;
-}
-
-pre.prettyprint {
-    padding: 10px;
-    border: 1px solid #cccccc;
 }
 pre.example {
     overflow: auto;
