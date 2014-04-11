@@ -4,10 +4,8 @@
  * Use this file. DO NOT EDIT the bootstrap files!
  */
 
-.navbar-logo {
-    height: 20px;
-    width: 20px;
-    margin-top: -2px;
+.content {
+    margin-top: 75px;
 }
 
 .jumbotron {
@@ -129,10 +127,6 @@ pre.example {
     width: 80%;
     height: 500px;
     text-align: left;
-}
-
-table.example-text {
-    width: 80%;
 }
 h3.example-title {
     text-align: center;
