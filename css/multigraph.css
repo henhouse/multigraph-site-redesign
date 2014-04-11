@@ -135,6 +135,9 @@ h3.example-title {
 
 /* Elements to change when user is on smartphone */
 @media (max-width: 768px) {
+    .content {
+        margin-top: 60px;
+    }
     .example-nav {
         display: none;
     }
