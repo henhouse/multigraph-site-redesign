@@ -9,11 +9,11 @@ docs: selected
 
     <h2>Using Multigraph with JavaScript</h2>
     
-    <p>Multigraph's HTML5 interface lets you create a graph in an HTML page by simply putting a <code>div</code> in the page which has <code>class="multigraph"</code>, and a <code>data-src</code> attribute that gives the location of the MUGL file to load (see the <a href='..'>home page</a> for details). Multigraph scans through the entire page looking for all <code>div</code>s of class <code>multigraph</code>, and runs some code on each one to insert the relevant graph into it. This is the easiest way to get a Multigraph into a web page, and doesn't involve writing any JavaScript code. If you want more control over the details of what Multigraph does, though, you can write your own custom JavaScript code that interacts with Multigraph.</p>
+    <p>Multigraph's HTML5 interface lets you create a graph in an HTML page by simply putting a <code>div</code> in the page which has <code>class="multigraph"</code>, and a <code>data-src</code> attribute that gives the location of the MUGL file to load (see the <a href='/integrate'>integration page</a> for details). Multigraph scans through the entire page looking for all <code>div</code>s of class <code>multigraph</code>, and runs some code on each one to insert the relevant graph into it. This is the easiest way to get a Multigraph into a web page, and doesn't involve writing any JavaScript code. If you want more control over the details of what Multigraph does, though, you can write your own custom JavaScript code that interacts with Multigraph.</p>
 
     <h3>The <code>multigraph</code> JavaScript Namespace</h3>
 
-    <p>The first thing to be aware of if you want to interact with Multigraph using JavaScript is that multigraph.js defines a single variable at the global level named <code>multigraph</code>. This variable serves as a namespace for Multigraph &#8212; all functions and objects that Multigraph defines are inside this object. This global <code>multigraph</code> object is also available as <code>window.multigraph</code>.</p>
+    <p>The first thing to be aware of if you want to interact with Multigraph using JavaScript is that multigraph<em>(-min)</em>.js defines a single variable at the global level named <code>multigraph</code>. This variable serves as a namespace for Multigraph &#8212; all functions and objects that Multigraph defines are inside this object. This global <code>multigraph</code> object is also available as <code>window.multigraph</code>.</p>
 
     <h3>Multigraph and jQuery</h3>
 
@@ -37,7 +37,7 @@ docs: selected
 
     <p>You can insert a Multigraph into this <code>div</code> by calling</p>
 
-    <pre class="prettyprint">$('#mygraph').multigraph({ 'mugl' : URL_OF_MUGL_FILE });</pre>
+    <pre class="prettyprint">$('#mygraph').multigraph({ 'mugl' : <strong>URL-OF-MUGL-FILE-HERE</strong> });</pre>
 
     <p>This is in fact exactly what Multigraph itself does to implement the normal HTML5 interface that automatically inserts a Multigraph instance into all <code>div</code>s in the page having a class of <code>multigraph</code>.</p>
 
@@ -81,7 +81,7 @@ docs: selected
         </li>
 
         <li><code>error</code>
-        <p>this is optional; if it is present, its value should be a function for handling error messages that Multigraph generates; Multigraph will call this function if and when it encounters an error in the course of loading a MUGL file, drawing a graph, or doing anything else that it does. The function should take a single argument which is an instance of a JavaScript Error object. The default behavior, which is what happens if this option is not present, is to use Multigraph's own internal mechanism for displaying user messages.</p>
+        <p>this is optional; if it is present, its value should be a function for handling error messages that Multigraph generates. Multigraph will call this function if and when it encounters an error in the course of loading a MUGL file, drawing a graph, or doing anything else that it does. The function should take a single argument which is an instance of a JavaScript Error object. The default behavior, which is what happens if this option is not present, is to use Multigraph's own internal mechanism for displaying user messages.</p>
         </li>
 
         <li><code>warning</code>
