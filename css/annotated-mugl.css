@@ -23,7 +23,6 @@ span.tipped-type:hover {
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
-#tooltip h3, #tooltip div { margin: 0; }
 
 #tooltip code {
   font-size: 12pt;
