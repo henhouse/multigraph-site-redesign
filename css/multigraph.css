@@ -60,12 +60,21 @@ footer a.icon {
 footer a:hover.icon {
     color: #0a82d1;
 }
+footer a:active.icon {
+    color: #056aad;
+}
 footer a {
     color: #bebcbc;
 }
 footer a:hover {
     color: #919293;
     text-decoration: none;
+}
+footer a:active {
+    color: #6d6d6d;
+}
+footer abbr[title] {
+    border-bottom-width: 0;
 }
 pre.prettyprint {
     padding: 10px;
