@@ -31,8 +31,11 @@
 .integrating:hover {
     color: #8d07e0;
 }
-.get-started {
+p.get-started {
     text-align: center;
+    background: #f8f8f8;
+    border: 1px #e2e2e2 dashed;
+    padding: 5px;
 }
 .fa-github-square {
     font-size: 15pt;
