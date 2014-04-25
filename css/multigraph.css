@@ -147,6 +147,67 @@ h3.example-title {
 }
 
 
+/* TESTER PAGE */
+.nav-tabs {
+    border-bottom: 0;
+}
+.multigraph-tester-content {
+    border: 1px solid #dddddd;
+    width: 100%;
+    height: 550px;
+    position: relative;
+	color: #333;
+}
+.multigraph-tester-content.nav li.active {
+    font-weight: bold;
+}
+.multigraph-tester-content .graph-message {
+    width: 500px;
+    text-align: center;
+    height: auto;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.js-multigraph-tester-options {
+    left: 0px;
+    width: auto;
+}
+.js-multigraph-tester-option {
+    float: left;
+    margin: 3px 0px;
+    border-left: 1px solid rgba(192, 192, 192, 0.7);
+    padding: 0px 4px;
+}
+.js-multigraph-tester-option input {
+    border: 1px solid #cccccc;
+}
+.js-multigraph-tester-option:first-child {
+    border-left: none;
+}
+.js-multigraph-tester-textarea {
+    position: relative;
+    width: 100%;
+    height: 505px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.js-multigraph-tester-textarea:focus, .js-multigraph-tester-option input:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.form-control {
+    display: inline;
+    width: auto;
+}
+.multigraph {
+    width: 100%;
+}
+
+
 /* Elements to change when user is on smartphone */
 @media (max-width: 768px) {
     .content {

@@ -1,3 +1,0 @@
-[submodule "lib/js-multigraph-tester"]
-	path = lib/js-multigraph-tester
-	url = git://github.com/henhouse/js-multigraph-tester.git
